@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+
+class Messagess {
+  void textMessage(String messages) {
+    Fluttertoast.showToast(
+      msg: messages,
+      toastLength: Toast.LENGTH_SHORT,
+      gravity: ToastGravity.BOTTOM,
+      timeInSecForIosWeb: 1,
+      backgroundColor: Colors.black,
+      textColor: Colors.white,
+    );
+  }
+}

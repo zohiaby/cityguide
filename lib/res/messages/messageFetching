@@ -1,0 +1,32 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+
+import 'dataUpload.dart';
+
+class MessageHandeling {
+  String GroupId;
+
+  MessageHandeling(this.GroupId);
+
+  sendMessage(message) {
+    var userId = FirebaseAuth.instance.currentUser!.uid;
+    FireBaseFuncationalities.sendPushNotification(message);
+    Map<String, dynamic> messageData = {
+      "senderId": userId,
+      "date": DateTime.now(),
+      "messageType": "text",
+      "message": message,
+    };
+
+    FirebaseFirestore.instance
+        .collection("groups")
+        .doc(GroupId)
+        .collection("messages")
+        .add(messageData);
+
+    FirebaseFirestore.instance
+        .collection("groups")
+        .doc(GroupId)
+        .update({"recentMessage": message, "recentMessageSender": userId});
+  }
+}

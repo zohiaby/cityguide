@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "499221562803",
+    "project_id": "appdata-2bd6c",
+    "storage_bucket": "appdata-2bd6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499221562803:android:80b6bd542d94f6f0a137c6",
+        "android_client_info": {
+          "package_name": "com.example.cityguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499221562803-7tnk71ig6voe14paqinkcjpjgjlam6hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5sMmoIpWQcoquZPL9aL4ZEYc2pYUhbrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499221562803-7tnk71ig6voe14paqinkcjpjgjlam6hj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499221562803-gupb5ncv94dlsdb5a34jci3k3ca1a2hf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cityguide"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499221562803:android:14059bd0875beffea137c6",
+        "android_client_info": {
+          "package_name": "com.zohaib.cityguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499221562803-7tnk71ig6voe14paqinkcjpjgjlam6hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5sMmoIpWQcoquZPL9aL4ZEYc2pYUhbrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499221562803-7tnk71ig6voe14paqinkcjpjgjlam6hj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "499221562803-gupb5ncv94dlsdb5a34jci3k3ca1a2hf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cityguide"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
