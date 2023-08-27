@@ -155,7 +155,7 @@ class FireBaseFuncationalities {
         headers: {
           HttpHeaders.contentTypeHeader: 'application/json',
           HttpHeaders.authorizationHeader:
-              'key=AAAAdDvshbM:APA91bEcTtHiTFq-POsb2BV6uStwDb5F3ah12duKAHcR9sRgv1R46GDsh9N0KxYAhzAmp9C3GfU1o1ufKYbUP28A8PiXbfVbyQW2lFjnF6_H0uWMwgEddf9h0DyJxa2g73eZ9sMu1BNQ'
+              'key=    YOUR KEY'
         },
         body: jsonEncode(body),
       );
