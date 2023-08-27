@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB5sMmoIpWQcoquZPL9aL4ZEYc2pYUhbrw',
-    appId: '1:499221562803:android:80b6bd542d94f6f0a137c6',
-    messagingSenderId: '499221562803',
-    projectId: 'appdata-2bd6c',
-    storageBucket: 'appdata-2bd6c.appspot.com',
+    apiKey: 'YOUR Key',
+    appId: 'YOUR ID',
+    messagingSenderId: 'Your ID',
+    projectId: 'Your ID',
+    storageBucket: 'Your ID',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCjFS0eZfN0ZhVgsY2PssNsKex_TkTJ-Io',
-    appId: '1:499221562803:ios:bbeb2c15108e030ca137c6',
-    messagingSenderId: '499221562803',
-    projectId: 'appdata-2bd6c',
-    storageBucket: 'appdata-2bd6c.appspot.com',
-    iosClientId: '499221562803-gupb5ncv94dlsdb5a34jci3k3ca1a2hf.apps.googleusercontent.com',
-    iosBundleId: 'com.example.cityguide',
+    apiKey: 'Your key',
+    appId: 'Your ID',
+    messagingSenderId: 'Your ID',
+    projectId: 'Your ID',
+    storageBucket: 'Your ID',
+    iosClientId: 'Your Id',
+    iosBundleId: 'Your ID',
   );
 }
